@@ -1,0 +1,31 @@
+:root {
+    --primary-pink: hsl(322, 100%, 66%);
+    --pale-cyan: hsl(193, 100%, 96%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-image: url(../images/bg-hero-desktop.svg);
+}
+
+header > div {
+    padding: 4vh;
+    justify-content: space-between;
+}
+
+#front > img {
+    width: 40%;
+}
+
