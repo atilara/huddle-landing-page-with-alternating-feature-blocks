@@ -19,6 +19,18 @@ h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
 }
 
+button {
+    cursor: pointer;
+    outline: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -34,6 +46,31 @@ header > div {
     justify-content: space-between;
 }
 
+#navbar img {
+    width: 15%;
+}
+
+#navbar button {
+    background-color: white;
+    padding: 1vh 4vh
+}
+
+#front h1 {
+    max-width: 24rem;
+}
+
+#front p {
+    margin-top: 3vh;
+    max-width: 36rem;
+}
+
+#front button {
+    margin-top: 3vh;
+    background-color: var(--primary-pink);
+    color: white;
+    padding: 2vh 8vh;
+}
+
 #front > img {
     width: 40%;
 }
@@ -47,11 +84,22 @@ section {
     box-shadow: 0 0 10px 1px rgba(0,0,0,.1);
 }
 
+section div {
+    padding: 10vh 15vh;
+}
+
+section div h2 {
+    margin-bottom: 1rem;
+}
+
 section > img {
     width: 30%;
 }
 
 #build-community {
+    position: relative;
+    top: 10vh;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,12 +110,19 @@ section > img {
     margin: 0 40vh;
 }
 
+#build-community button {
+    background-color: var(--primary-pink);
+    color: white;
+    margin-top: 4vh;
+    padding: 2vh 8vh;
+}
+
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 60px 80px;
+    padding: 24vh 60px 6vh 60px;
     background-color: var(--dark-cyan);
     color: white;
 }
