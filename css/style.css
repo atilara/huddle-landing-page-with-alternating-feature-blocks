@@ -141,8 +141,13 @@ footer {
 
 @media (max-width: 700px) {
     
+    #navbar {
+        align-items: center;
+    }
+    
     #navbar img {
-        width: 50%;
+        height: 40%;
+        width: 40%;
     }
     
     #front {
