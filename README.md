@@ -1,6 +1,6 @@
 # Huddle landing page with alternating feature blocks
 
-![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
+<img src="./design/desktop-preview.jpg" width="40%" />
 
 ## ℹ About
 
@@ -10,17 +10,16 @@ You can find this challenge on their website, where you can see the style-guide.
 
 ## 🖥 Desktop
 
-🚧 In development
+<img src="./.github/desktop.png" width="60%" />
 
 ## 📱 Mobile
 
-🚧 In development
+<img src="./.github/mobile.png" width="20%" />
 
 ## 🛠 Deploy
 
-🚧 In development
+This Website was deployed using Vercel, on this [link](https://huddle-landing-page-with-alternating-feature-blocks-zeta.vercel.app).
 
 ## 📄 License
 
-🚧 In development
-
+This repository is being hosted under the MIT License.
